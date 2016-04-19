@@ -1,42 +1,47 @@
+@import url(https://fonts.googleapis.com/css?family=Open+Sans);
 g path {
-    fill: lightgrey;
+    fill: #6D6E71;
 }
 
 g path:hover {
-    fill: yellow;
+    fill: #FAF288;
     cursor: pointer;
+}
+
+.container {
+    background-color: #7BAFD4;
+    max-width: 430px;
+    border-radius: 10px;
 }
 
 .pic-container {
     position: relative;
-    background-color:#7BAFD4;
-    max-width: 430px;
-    border-radius: 10px;
-    /* Play around with the transform property
-    transform: scale(1.1, 1.1);*/
 }
 
 .box {
     position: relative;
-    width: 425.60089px;
+    width: 430px;
     height: 300px;
-    background-color: blue;
     display: block;
-    border-radius: 10px;
     text-align: center;
     margin-top: 1vw;
+    border-top-style: solid;
+    border-top-width: 3px;
+    border-top-color: white;
 }
 
 .info-container {
     position: relative;
     top: 50%;
-    transform: translateY(-50%);
+    transform: translateY(-60%);
 }
 
 .info-container>div {
     position: relative;
     display: none;
-    color:orange;
+    color: orange;
+    font-family: 'Open Sans', sans-serif;
+    color: black;
 }
 
 #standard-text {
