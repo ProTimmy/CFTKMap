@@ -15,8 +15,11 @@ g path:hover {
 
 .container {
     background-color: #7BAFD4;
-    max-width: 430px;
+    width: 430px;
     border-radius: 10px;
+    position: relative;
+    left: 50%;
+    transform: translateX(-50%);
 }
 
 .pic-container {
@@ -32,13 +35,13 @@ g path:hover {
     margin-top: 1vw;
     border-top-style: solid;
     border-top-width: 3px;
-    border-top-color: white;
+    border-top-color: #6D6E71;
 }
 
 .info-container {
     position: relative;
-    top: 50%;
-    transform: translateY(-60%);
+    top: 40%;
+    transform: translateY(-50%);
 }
 
 .info-container>div {
@@ -50,5 +53,5 @@ g path:hover {
 }
 
 #standard-text {
-    display: block;
+    display: inline;
 }
