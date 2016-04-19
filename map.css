@@ -1,0 +1,44 @@
+g path {
+    fill: lightgrey;
+}
+
+g path:hover {
+    fill: yellow;
+    cursor: pointer;
+}
+
+.pic-container {
+    position: relative;
+    background-color:#7BAFD4;
+    max-width: 430px;
+    border-radius: 10px;
+    /* Play around with the transform property
+    transform: scale(1.1, 1.1);*/
+}
+
+.box {
+    position: relative;
+    width: 425.60089px;
+    height: 300px;
+    background-color: blue;
+    display: block;
+    border-radius: 10px;
+    text-align: center;
+    margin-top: 1vw;
+}
+
+.info-container {
+    position: relative;
+    top: 50%;
+    transform: translateY(-50%);
+}
+
+.info-container>div {
+    position: relative;
+    display: none;
+    color:orange;
+}
+
+#standard-text {
+    display: block;
+}
