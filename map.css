@@ -17,9 +17,10 @@ g path:hover {
     background-color: #7BAFD4;
     width: 430px;
     border-radius: 10px;
-    position: relative;
-    left: 50%;
-    transform: translateX(-50%);
+    position: absolute;
+    top: 12.5%;
+    right: 12.5%;
+    transform: scale(1.2);
 }
 
 .pic-container {
@@ -34,7 +35,7 @@ g path:hover {
     text-align: center;
     margin-top: 1vw;
     border-top-style: solid;
-    border-top-width: 3px;
+    border-top-width: 6px;
     border-top-color: #6D6E71;
 }
 
@@ -49,7 +50,7 @@ g path:hover {
     display: none;
     color: orange;
     font-family: 'Open Sans', sans-serif;
-    color: black;
+    color: #252526;
 }
 
 #standard-text {
