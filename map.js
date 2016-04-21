@@ -862,12 +862,12 @@ $(document).ready(function () {
     });
 
     //Perquimans County
-    $('#perquimas').click(function () {
-        if ($('#perquimas-text').is(":hidden")) {
+    $('#perquimans').click(function () {
+        if ($('#perquimans-text').is(":hidden")) {
             if (canExecute) {
                 waitToExecute();
                 $('.info-container>div:visible').fadeOut(500, function () {
-                    $('#perquimas-text').fadeIn(500);
+                    $('#perquimans-text').fadeIn(500);
                 });
             }
         }
