@@ -1,7 +1,6 @@
 @import url(https://fonts.googleapis.com/css?family=Open+Sans);
 body {
     overflow: hidden;
-    align-items: center;
 }
 
 g path {
@@ -15,12 +14,9 @@ g path:hover {
 
 .container {
     background-color: #7BAFD4;
-    width: 430px;
     border-radius: 10px;
     position: absolute;
     top: 12.5%;
-    right: 12.5%;
-    transform: scale(1.2);
 }
 
 .pic-container {
